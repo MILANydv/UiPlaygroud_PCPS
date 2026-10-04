@@ -31,7 +31,7 @@ class ProductImage extends StatelessWidget {
       width: size,
       height: size,
       fit: BoxFit.cover,
-      // errorBuilder: _fallback,
+      errorBuilder: _fallback,
     );
   }
 
@@ -42,7 +42,7 @@ class ProductImage extends StatelessWidget {
       height: size,
       fit: BoxFit.cover,
       loadingBuilder: _loading,
-      // errorBuilder: _fallback,
+      errorBuilder: _fallback,
     );
   }
 
@@ -61,13 +61,13 @@ class ProductImage extends StatelessWidget {
     );
   }
 
-  // Widget _fallback(BuildContext context, Object error, StackTrace? stack) {
-  //   return Container(
-  //     width: size,
-  //     height: size,
-  //     alignment: Alignment.center,
-  //     color: Theme.of(context).colorScheme.surfaceContainerHighest,
-  //     child: ProductIcon(product: product, size: 24),
-  //   );
-  // }
+  Widget _fallback(BuildContext context, Object error, StackTrace? stack) {
+    return Container(
+      width: size,
+      height: size,
+      alignment: Alignment.center,
+      color: Theme.of(context).colorScheme.surfaceContainerHighest,
+      child: ProductIcon(product: product, size: 24),
+    );
+  }
 }

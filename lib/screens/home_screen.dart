@@ -45,97 +45,97 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
           ),
-          // _DemoTile(
-          //   icon: Icons.grid_view,
-          //   title: 'Grid view',
-          //   subtitle: 'GridView.builder + SliverGridDelegate',
-          //   onTap: () => Navigator.of(context).push(
-          //     MaterialPageRoute<void>(
-          //       builder: (BuildContext context) => const ProductGridScreen(),
-          //     ),
-          //   ),
-          // ),
-          // _DemoTile(
-          //   icon: Icons.open_in_full,
-          //   title: 'Product detail',
-          //   subtitle: 'Expanded, Flexible, Container',
-          //   onTap: () => Navigator.of(context).push(
-          //     MaterialPageRoute<void>(
-          //       builder: (BuildContext context) =>
-          //           ProductDetailScreen(product: kProducts.first),
-          //     ),
-          //   ),
-          // ),
-          // _DemoTile(
-          //   icon: Icons.dashboard_customize,
-          //   title: 'Layout playground',
-          //   subtitle: 'Row, Column, Wrap, Stack, Spacer',
-          //   onTap: () => Navigator.of(context).push(
-          //     MaterialPageRoute<void>(
-          //       builder: (BuildContext context) => const LayoutScreen(),
-          //     ),
-          //   ),
-          // ),
-          // _DemoTile(
-          //   icon: Icons.widgets,
-          //   title: 'Widget gallery',
-          //   subtitle: 'Buttons, containers, chips, text styles',
-          //   onTap: () => Navigator.of(context).push(
-          //     MaterialPageRoute<void>(
-          //       builder: (BuildContext context) => const WidgetsGalleryScreen(),
-          //     ),
-          //   ),
-          // ),
-          // _DemoTile(
-          //   icon: Icons.swap_vert,
-          //   title: 'Scroll views',
-          //   subtitle: 'SingleChildScrollView, CustomScrollView, slivers',
-          //   onTap: () => Navigator.of(context).push(
-          //     MaterialPageRoute<void>(
-          //       builder: (BuildContext context) => const ScrollViewsScreen(),
-          //     ),
-          //   ),
-          // ),
-          // _DemoTile(
-          //   icon: Icons.image_outlined,
-          //   title: 'Images',
-          //   subtitle: 'Image.asset, Image.network, BoxFit, clip and fallback',
-          //   onTap: () => Navigator.of(context).push(
-          //     MaterialPageRoute<void>(
-          //       builder: (BuildContext context) => const ImagesScreen(),
-          //     ),
-          //   ),
-          // ),
-          // _DemoTile(
-          //   icon: Icons.text_fields,
-          //   title: 'Fonts and icons',
-          //   subtitle: 'Poppins weights, letter spacing, Material icons',
-          //   onTap: () => Navigator.of(context).push(
-          //     MaterialPageRoute<void>(
-          //       builder: (BuildContext context) => const TypographyScreen(),
-          //     ),
-          //   ),
-          // ),
-          // _DemoTile(
-          //   icon: Icons.view_carousel_outlined,
-          //   title: 'Onboarding',
-          //   subtitle: 'PageView with a page indicator',
-          //   onTap: () => Navigator.of(context).push(
-          //     MaterialPageRoute<void>(
-          //       builder: (BuildContext context) => const OnboardingScreen(),
-          //     ),
-          //   ),
-          // ),
-          // _DemoTile(
-          //   icon: Icons.login,
-          //   title: 'Login',
-          //   subtitle: 'TextField decorations and a sticky layout',
-          //   onTap: () => Navigator.of(context).push(
-          //     MaterialPageRoute<void>(
-          //       builder: (BuildContext context) => const LoginScreen(),
-          //     ),
-          //   ),
-          // ),
+          _DemoTile(
+            icon: Icons.grid_view,
+            title: 'Grid view',
+            subtitle: 'GridView.builder + SliverGridDelegate',
+            onTap: () => Navigator.of(context).push(
+              MaterialPageRoute<void>(
+                builder: (BuildContext context) => const ProductGridScreen(),
+              ),
+            ),
+          ),
+          _DemoTile(
+            icon: Icons.open_in_full,
+            title: 'Product detail',
+            subtitle: 'Expanded, Flexible, Container',
+            onTap: () => Navigator.of(context).push(
+              MaterialPageRoute<void>(
+                builder: (BuildContext context) =>
+                    ProductDetailScreen(product: kProducts.first),
+              ),
+            ),
+          ),
+          _DemoTile(
+            icon: Icons.dashboard_customize,
+            title: 'Layout playground',
+            subtitle: 'Row, Column, Wrap, Stack, Spacer',
+            onTap: () => Navigator.of(context).push(
+              MaterialPageRoute<void>(
+                builder: (BuildContext context) => const LayoutScreen(),
+              ),
+            ),
+          ),
+          _DemoTile(
+            icon: Icons.widgets,
+            title: 'Widget gallery',
+            subtitle: 'Buttons, containers, chips, text styles',
+            onTap: () => Navigator.of(context).push(
+              MaterialPageRoute<void>(
+                builder: (BuildContext context) => const WidgetsGalleryScreen(),
+              ),
+            ),
+          ),
+          _DemoTile(
+            icon: Icons.swap_vert,
+            title: 'Scroll views',
+            subtitle: 'SingleChildScrollView, CustomScrollView, slivers',
+            onTap: () => Navigator.of(context).push(
+              MaterialPageRoute<void>(
+                builder: (BuildContext context) => const ScrollViewsScreen(),
+              ),
+            ),
+          ),
+          _DemoTile(
+            icon: Icons.image_outlined,
+            title: 'Images',
+            subtitle: 'Image.asset, Image.network, BoxFit, clip and fallback',
+            onTap: () => Navigator.of(context).push(
+              MaterialPageRoute<void>(
+                builder: (BuildContext context) => const ImagesScreen(),
+              ),
+            ),
+          ),
+          _DemoTile(
+            icon: Icons.text_fields,
+            title: 'Fonts and icons',
+            subtitle: 'Poppins weights, letter spacing, Material icons',
+            onTap: () => Navigator.of(context).push(
+              MaterialPageRoute<void>(
+                builder: (BuildContext context) => const TypographyScreen(),
+              ),
+            ),
+          ),
+          _DemoTile(
+            icon: Icons.view_carousel_outlined,
+            title: 'Onboarding',
+            subtitle: 'PageView with a page indicator',
+            onTap: () => Navigator.of(context).push(
+              MaterialPageRoute<void>(
+                builder: (BuildContext context) => const OnboardingScreen(),
+              ),
+            ),
+          ),
+          _DemoTile(
+            icon: Icons.login,
+            title: 'Login',
+            subtitle: 'TextField decorations and a sticky layout',
+            onTap: () => Navigator.of(context).push(
+              MaterialPageRoute<void>(
+                builder: (BuildContext context) => const LoginScreen(),
+              ),
+            ),
+          ),
           const SizedBox(height: 24),
           Container(
             padding: const EdgeInsets.all(16),
