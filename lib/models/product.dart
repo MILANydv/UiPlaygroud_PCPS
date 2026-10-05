@@ -1,8 +1,9 @@
 class Product {
   const Product({
     required this.id,
+
     required this.name,
-    required this.category,
+    this.category,
     required this.price,
     required this.rating,
     required this.iconName,
@@ -13,7 +14,7 @@ class Product {
 
   final String id;
   final String name;
-  final String category;
+  final String? category;
   final double price;
   final double rating;
   final String iconName;

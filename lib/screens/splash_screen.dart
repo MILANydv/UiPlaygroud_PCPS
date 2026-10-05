@@ -15,7 +15,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    Timer(const Duration(seconds: 2), () {
+    Timer(const Duration(seconds: 10), () {
       if (!mounted) return;
       Navigator.of(context).pushReplacement(
         MaterialPageRoute<void>(builder: (_) => const OnboardingScreen()),
@@ -32,12 +32,13 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset('assets/images/logo.png', width: 120, height: 120),
+            Image.asset("assets/images/sample.png"),
+            // Image.network("https://img.magnific.com/premium-psd/butterfly-with-yellow-wings-with-isolated-transparent-background-png-file_1304044-3925.jpg?semt=ais_hybrid&w=740&q=80"),
             const SizedBox(height: 24),
             Text('Shop UI', style: theme.textTheme.headlineMedium),
             const SizedBox(height: 8),
             Text(
-              'Playground for Flutter widgets',
+              'Playground for flutter widgets',
               style: theme.textTheme.bodyMedium,
             ),
             const SizedBox(height: 32),
